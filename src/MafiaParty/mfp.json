@@ -1,0 +1,6 @@
+{
+  "name": "MafiaParty",
+  "logLevel": 1,
+  "dbFile": "mfp.lidb",
+  "corsOrigins": []
+}
