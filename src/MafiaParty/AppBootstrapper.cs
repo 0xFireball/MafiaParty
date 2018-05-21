@@ -31,7 +31,7 @@ namespace MafiaParty {
             base.ConfigureApplicationContainer(container);
 
             // Register IoC components
-            container.Register<SContext>(serverContext);
+            container.Register<ISContext>(serverContext);
         }
     }
 }
