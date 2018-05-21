@@ -2,10 +2,33 @@
 
 <head>
   <title>MafiaParty</title>
+  <link rel="stylesheet" href="assets/css/ihui.css" />
+  <link rel="stylesheet" href="assets/css/fonts.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
 <body>
-  <h1>Welcome to MafiaParty</h1>
+  <nav class="navbar">
+    <ul class="nav-content">
+      <li class="nav-item ripple nav-brand">
+        <a href="#">mfp</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="center">
+    <div class="title">
+      <h1>mafia party</h1>
+      <h5>
+        an online mafia game
+      </h5>
+      <div>
+        game id: 
+        <input type="text" />
+      </div>
+      <a class="btn btn-small btn-default btn-outline ripple" onclick="joinGame()">join</a>
+    </div>
+  </div>
+  <script src="./assets/js/mafiaparty.js"></script>
 </body>
 
 </html>
